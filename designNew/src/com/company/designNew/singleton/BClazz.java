@@ -1,10 +1,9 @@
-package com.company.design.signleton;
+package com.company.designNew.singleton;
 
-public class AClazz {
-
+public class BClazz {
     private SocketClient socketClient;
 
-    public AClazz(){
+    public BClazz(){
         this.socketClient = SocketClient.getSocketClient();
         //this.socketClient = new SocketClient();
     }
@@ -12,5 +11,4 @@ public class AClazz {
     public SocketClient getSocketClient(){
         return this.socketClient;
     }
-
 }

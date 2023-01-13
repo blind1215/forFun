@@ -1,7 +1,6 @@
-package com.company.design.signleton;
+package com.company.designNew.singleton;
 
 public class SocketClient {
-
     private static SocketClient socketClient = null;
 
     private SocketClient(){
