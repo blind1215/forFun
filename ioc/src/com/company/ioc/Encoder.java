@@ -16,6 +16,6 @@ public class Encoder {
     }
 
     public String encode(String message){
-        return Base64.getEncoder().encodeToString(message.getBytes());
+        return iEncoder.encode(message);
     }
 }
